@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thảo luận</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Khu vực thảo luận</h1>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="respiratory.html">Hô hấp</a>
+        <a href="immune.html">Miễn dịch</a>
+        <a href="excretion.html">Bài tiết</a>
+        <a href="discussion.html">Thảo luận</a>
+    </nav>
+</header>
+
+<section class="content">
+
+    <h2>Đặt câu hỏi</h2>
+    <textarea id="question" placeholder="Viết câu hỏi của bạn..."></textarea>
+    <button onclick="postQuestion()">Đăng</button>
+
+    <h2>Các câu hỏi gần đây</h2>
+    <div id="questionList"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
